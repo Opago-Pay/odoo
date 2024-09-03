@@ -1,4 +1,4 @@
-FROM opago/odoo:base
+FROM --platform=$TARGETPLATFORM opago/odoo:base
 MAINTAINER Odoo S.A. <info@odoo.com>
 
 # Install the correct version of cffi and its dependencies

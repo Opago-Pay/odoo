@@ -26,7 +26,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        file: setup/package_opago.dfdebian
+        file: setup/package_opago.dfubuntu
         push: true
         platforms: linux/amd64,linux/arm64
         tags: opago/odoo:testing

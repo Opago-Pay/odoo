@@ -1,4 +1,4 @@
-Contributing to Odoo - delete this
+Contributing to Odoo
 ====================
 
 [Full contribution guidelines](https://github.com/odoo/odoo/wiki/Contributing)

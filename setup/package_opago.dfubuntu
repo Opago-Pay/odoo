@@ -1,5 +1,8 @@
-FROM opago/odoo:base
+FROM --platform=linux/arm64 opago/odoo:base
 MAINTAINER Odoo S.A. <info@odoo.com>
+
+# Use /bin/sh instead of /bin/bash to avoid exec format error
+SHELL ["/bin/sh", "-c"]
 
 # Install the correct version of cffi and its dependencies
 RUN pip3 install --upgrade cffi==1.15.0
